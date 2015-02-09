@@ -19,7 +19,7 @@
 			<key>comment</key>
 			<string>TNSDL type keyword</string>
 			<key>match</key>
-			<string>\b(COMMENT|STRUCT|ENDSTRUCT|TO|OUTPUT|NEXTSTATE|FPAR|CALL|TASK|PROGRAMBLOCK|IMPLEMENTATION|ENDIMPLEMENTATION|MODULE|ENDPROCEDURE|START|RETURNS)\b</string>
+			<string>\b(COMMENT|STRUCT|ENDSTRUCT|TO|OUTPUT|NEXTSTATE|FPAR|CALL|TASK|PROGRAMBLOCK|IMPLEMENTATION|ENDIMPLEMENTATION|MODULE|ENDPROCEDURE|START|RETURNS|STATE|ENDSTATE|FOR|ENDFOR|ADDING)\b</string>
 			<key>name</key>
 			<string>keyword.source.tnsdl</string>
 		</dict>
@@ -39,7 +39,7 @@
 			<key>comment</key>
 			<string>TNSDL type keyword</string>
 			<key>match</key>
-			<string>\b(PRIORITY|DESTROY_MSG_IF_NOT_WO_STATE|[a-zA-Z]+[a-zA-Z0-9_]*_ec|[a-zA-Z]+[a-zA-Z0-9_]*_c|SENDER_PHYS_COMPUTER|SENDER|CONSTANT|ENDTYPE|REPRESENTATION)\b</string>
+			<string>\b(PRIORITY|DESTROY_MSG_IF_NOT_WO_STATE|[a-zA-Z]+[a-zA-Z0-9_]*_ec|[a-zA-Z]+[a-zA-Z0-9_]*_c|SENDER_PHYS_COMPUTER|SENDER|CONSTANT|ENDTYPE|REPRESENTATION|NOW)\b</string>
 			<key>name</key>
 			<string>constant.language.tnsdl</string>
 		</dict>
@@ -171,7 +171,7 @@
 			<key>name</key>
 			<string>meta.function.tnsdl</string>
 		</dict>
-		
+
 		<dict>
 			<key>match</key>
 			<string>,</string>
