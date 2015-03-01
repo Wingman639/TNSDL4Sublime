@@ -3,9 +3,9 @@
         "sdl",
         "sdt",
         "spd",
-        "sdt",
         "sst",
-        "sed"
+        "sed",
+        "scc"
     ],
     "name": "tnsdl",
     "patterns": [

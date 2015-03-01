@@ -7,9 +7,9 @@
 		<string>sdl</string>
 		<string>sdt</string>
 		<string>spd</string>
-		<string>sdt</string>
 		<string>sst</string>
 		<string>sed</string>
+		<string>scc</string>
 	</array>
 	<key>name</key>
 	<string>tnsdl</string>
