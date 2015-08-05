@@ -5,7 +5,6 @@ FPAR
   IN ${2:proc_para} 	${3:para_tyep};
 RETURNS
   bool;
-
 START;
   ${4}
   RETURN F;
@@ -16,5 +15,5 @@ ENDPROCEDURE ${1:proc_name};
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ISPROC</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.tnsdl</scope>
 </snippet>

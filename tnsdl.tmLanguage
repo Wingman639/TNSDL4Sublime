@@ -39,7 +39,7 @@
 			<key>comment</key>
 			<string>TNSDL type keyword</string>
 			<key>match</key>
-			<string>\b(PRIORITY|DESTROY_MSG_IF_NOT_WO_STATE|[a-zA-Z]+[a-zA-Z0-9_]*_ec|[a-zA-Z]+[a-zA-Z0-9_]*_c|SENDER_PHYS_COMPUTER|SENDER|CONSTANT|ENDTYPE|REPRESENTATION|NOW)\b</string>
+			<string>\b(PRIORITY|DESTROY_MSG_IF_NOT_WO_STATE|[a-zA-Z]+[a-zA-Z0-9_]*_ec|[a-zA-Z]+[a-zA-Z0-9_]*_c|SENDER_PHYS_COMPUTER|SENDER|CONSTANT|ENDTYPE|REPRESENTATION|NOW|OPERATORS)\b</string>
 			<key>name</key>
 			<string>constant.language.tnsdl</string>
 		</dict>
